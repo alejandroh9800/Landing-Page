@@ -31,6 +31,6 @@ if ( (on_index = true && document.URL.includes("Contact")) || (on_index = true &
     
 else {
     
-    document.getElementById("home").style.borderBottom= '12px #3882f6 solid';
+    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }      
 };
