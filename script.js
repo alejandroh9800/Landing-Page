@@ -22,7 +22,7 @@ else if ( document.URL.includes("Contact") ) {
    
     
 if (on_index = true){
-    document.getElementByID("home").style.borderBottom= '2px #3882f6 solid';
+    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }  
     
 else {
