@@ -20,11 +20,12 @@ else if ( document.URL.includes("Contact") ) {
     document.getElementById("contact").style.borderBottom= '2px #3882f6 solid';
 }
    
-
-
-if (window.location.pathname == '/') {
-    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-} else {
+    
+if (on_index = true){
+    document.getElementByID("home").style.borderBottom= '2px #3882f6 solid';
+}  
+    
+else {
   console.log('Not on the homepage.')
 }
 
@@ -38,7 +39,13 @@ $(function () {
 };
 
 /*
- 
+
+ if (window.location.pathname == '/') {
+    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
+} else {
+  console.log('Not on the homepage.')
+}
+
 if(window.location.href=="file:///home/alejandrohernandez/repos/Landing-Page/index.html")
 
     {
