@@ -22,9 +22,7 @@ else if ( document.URL.includes("Contact") ) {
    
 
 
-    current = window.location.pathname;
-
-if (current == '/') {
+if (window.location.pathname; == '/') {
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 } else {
   console.log('Not on the homepage.')
