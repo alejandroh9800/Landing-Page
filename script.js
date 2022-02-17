@@ -21,7 +21,7 @@ if ( document.URL.includes("About-Me") ) {
 }
    
        
-if ( on_index = true && document.URL.includes("About-Me" || "Projects" || "Contact")){
+if ( document.URL.includes("index") && document.URL.includes("About-Me" || "Projects" || "Contact")){
     
      document.getElementById("home").styleborderBottom= '0px';
 }
@@ -30,5 +30,4 @@ else if (on_index = true){
     
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }  
-
 };
