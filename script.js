@@ -1,9 +1,12 @@
 window.onload = (event) => {
+    /*
 
 if ( document.URL.includes("index") ) {
 
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }
+
+*/
 
 if ( document.URL.includes("About-Me") ) {
 
