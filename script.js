@@ -29,7 +29,7 @@ if ( on_index = true && document.URL.includes("Contact" || "Projects" || "About-
      document.getElementById("home").style.borderBottom= 'none';
 }
     
-else if ( on_index = true){
+else ( on_index = true){
     
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }      
