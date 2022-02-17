@@ -5,7 +5,7 @@ if ( document.URL.includes("index") ) {
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }
 
-else if ( document.URL.includes("About-Me") ) {
+if ( document.URL.includes("About-Me") ) {
 
     document.getElementById("about").style.borderBottom= '2px #3882f6 solid';
 }
@@ -15,7 +15,7 @@ else if ( document.URL.includes("About-Me") ) {
     document.getElementById("projects").style.borderBottom= '2px #3882f6 solid';
 }
 
-else if ( document.URL.includes("Contact") ) {
+ if ( document.URL.includes("Contact") ) {
 
     document.getElementById("contact").style.borderBottom= '2px #3882f6 solid';
 }
@@ -24,12 +24,19 @@ else if ( document.URL.includes("Contact") ) {
 if (on_index = true){
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
 }  
+   
     
-else {
+if ( on_index = true && document.URL.includes("About-Me" || "Projects" || "Contact"){
+    
+     document.getElementById("home").styleborderBottom= '0px';
+    
+    }
+
+ else {
   console.log('Not on the homepage.')
 }
 
-    
+
 /*
 $(function () {
     $("#header").load("header.html");
