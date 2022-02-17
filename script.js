@@ -20,53 +20,15 @@ if ( document.URL.includes("About-Me") ) {
     document.getElementById("contact").style.borderBottom= '2px #3882f6 solid';
 }
    
-    
-if (on_index = true){
-    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-}  
-   
-    
-if ( on_index = true && document.URL.includes("About-Me" || "Projects" || "Contact"){
+       
+if ( on_index = true && document.URL.includes("About-Me" || "Projects" || "Contact")){
     
      document.getElementById("home").styleborderBottom= '0px';
+}
+
+else if (on_index = true){
     
-    }
-
- else {
-  console.log('Not on the homepage.')
-}
-
-
-/*
-$(function () {
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-  });
-*/
-};
-
-/*
-
- if (window.location.pathname == '/') {
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-} else {
-  console.log('Not on the homepage.')
-}
+}  
 
-if(window.location.href=="file:///home/alejandrohernandez/repos/Landing-Page/index.html")
-
-    {
-        nent.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-        console.log("Hello world!"); 
-    }
-
-    document.getElementById("demo").innerHTML =
-    "The full URL of this page is:<br>" + window.location.href; 
-
-    else ( document.URL.includes("projects") ) {
-
-    document.getElementById("projects").style.borderBottom= '2px #3882f6 solid';
-}
-*/
-
-
+};
