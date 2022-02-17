@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width", initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+ <!--
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"
+></script>
+<script>
+$(function () {
+  $("#header").load("header.html");
+  $("#footer").load("footer.html");
+});
+</script>
+-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style> 
+    </head>
+    <body>
+        <nav id="header"> 
+            <logo class="header-logo">
+                <a class="header-logo" href="./index.html"><img class="header-logo" src="./assets/AH-Logo.png"></a>
+            </logo>
+            <div class="right-links">
+                <a id="projects"class="right-link" href="./Alt-links/Projects.html">Projects ☢️</a>
+                <a id="about" class="right-link" href="./Alt-links/About-Me.html">About Me &#128126</a>
+                <a id="contact" class="right-link" href="./Alt-links/Contact.html">Contact &#128226</a>  
+                <a id="home" class="right-link" href="./index.html">Home &#127968</a>
+            </div>
+        </nav>
+
+        <div class="content">
+
+        <div class="hero-wrapper">
+
+            <div class="hero-left">
+            <h1>Meet Alejandro Hernandez</h1>
+
+            <p class="hero-left-txt">
+                Hello! I'm a second year Computer Science Major, I am currently enrolled in Odin Project, 
+                an Open Source Bootcamp. Currently i'm looking for internship opportunities to reinforce my 
+                knowledge and expand my exposure to code in the work place. I look forward to working with you!
+            </p>
+            <p id="demo">
+            </p>
+            <a class="hero-button-wrapper" href="./Alt-links/Contact.html">
+            <button class="hero-button">Contact Me</button>
+            </a> 
+           </div>
+
+            <div class="hero-right">
+                <img class="hero-image" src="./assets/Placeholder.png">
+            </div>
+        </div>
+            
+            <h2 class="info-title-txt">Programming Languages &lt;/&gt;</h2>
+            
+            <div class="info-container">
+                <div class="info-card"> <img src="./assets/java-logo.png"> <div class="info-text">Java</div></div>
+                <div class="info-card"> <img src="./assets/java-script.png"> <div class="info-text">Javascript</div></div>
+                <div class="info-card"> <img id="html-css" src="./assets/html-css.png"> <div class="info-text">HTML/CSS</div></div>
+                <div class="info-card"> <img src="./assets/python.jpg"> <div class="info-text">Python</div></div>
+            </div>
+
+            <quote class="quote-flexbox">
+                <div class="quote-text">
+                “Many of life’s failures are people who did not 
+                realize how close they were to success when they 
+                gave up.”
+                </div>
+                <div class="author-text">
+                – Thomas A. Edison
+                </div>
+            </quote>
+            <div class="call-container">
+            <div class="call-to-action-wrapper">
+                <div class="left-call-text">
+                    <div class="left-title-call">Looking forward to working with you!</div>
+                    <div><p>Don't be afraid to contact me for anything, 
+                            just click the button on the right.
+                    </p></div>
+                </div>
+                <button class="action-button">Contact Me</button>
+             </div>  
+             </div>
+            </div>
+        </div>
+        <footer id ="footer" class="footer">
+            Copyright© Alejandro Hernandez Odin Project 2022
+        </footer>
+    </body>
+</html>
