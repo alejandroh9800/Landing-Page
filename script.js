@@ -24,33 +24,13 @@ if ( document.URL.includes("About-Me") ) {
 }
     
 
-if ( on_index = true && document.URL.includes("Contact")){
+if ( on_index = true && document.URL.includes("Contact" || "Projects" || "About-Me")){
     
-     document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
-}
-    
-else ( on_index = true){
-    
-    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-}  
-    
-if ( on_index = true && document.URL.includes("Products")){
-    
-     document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
-}
-    
-else ( on_index = true){
-    
-    document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-}  
-    
-if ( on_index = true && document.URL.includes("About-Me")){
-    
-     document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
+     document.getElementById("home").style.borderBottom= 'none';
 }
     
 else if ( on_index = true){
     
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-}  
+}      
 };
