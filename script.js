@@ -21,11 +21,21 @@ if ( document.URL.includes("About-Me") ) {
 }
    
        
-if ( on_index = true && document.URL.includes("About-Me" || "Projects" || "Contact")){
+if ( on_index = true && document.URL.includes("About-Me")){
     
      document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
 }
+    
+if ( on_index = true && document.URL.includes("Products")){
+    
+     document.getElementById("home").style.borderBottom= 'none';
+}
 
+if ( on_index = true && document.URL.includes("Contact")){
+    
+     document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
+}
+    
 else if ( on_index = true){
     
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
