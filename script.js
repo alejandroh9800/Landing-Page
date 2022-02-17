@@ -24,7 +24,7 @@ if ( document.URL.includes("About-Me") ) {
 }
     
 
-if ( on_index = true && document.URL.includes("Contact" || "Projects" || "About-Me")){
+if ( (on_index = true && document.URL.includes("Contact")) || (on_index = true && document.URL.includes("about") || (on_index = true && document.URL.includes("projects")){
     
      document.getElementById("home").style.borderBottom= 'none';
 }
