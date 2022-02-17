@@ -23,7 +23,7 @@ if ( document.URL.includes("About-Me") ) {
        
 if ( document.URL.includes("index") && document.URL.includes("About-Me" || "Projects" || "Contact")){
     
-     document.getElementById("home").styleborderBottom= '0px';
+     document.getElementById("home").style.borderBottom= '2px solid rgb(20, 40, 70)';
 }
 
 else if (on_index = true){
