@@ -19,12 +19,17 @@ else if ( document.URL.includes("Contact") ) {
 
     document.getElementById("contact").style.borderBottom= '2px #3882f6 solid';
 }
-    
-   if ( document.URL.includes("Landing-Page") ) {
+   
 
+
+    current = window.location.pathname;
+
+if (current == '/') {
     document.getElementById("home").style.borderBottom= '2px #3882f6 solid';
-} 
-    
+} else {
+  console.log('Not on the homepage.')
+}
+
     
 /*
 $(function () {
